@@ -1,0 +1,38 @@
+body{margin:0; display:flex; flex-direction: column; justify-content: center;}
+#download{width:140px; height:50px; background-color:#D97652; color:white; border:0; border-radius:40px; font-size: 16px;flex-basis: auto;}
+.download{width:140px; height:50px; background-color:#D97652; color:white; border:0; border-radius:40px; font-size: 16px;}
+headerbar{display:flex; flex-direction:row; top:30px; align-items: center; justify-content:center; gap:600px;
+    width:auto; height:120px;}
+.headerbutton>.input>input{border:0; background-color:transparent; width:43px; height:20px; padding:0;}
+.headerbutton{display:flex; flex-direction:row; align-items: center; justify-content:center;}
+header{background-color:#F2E9D8; width:auto; height:900px; }
+.input>input{flex-basis:content;}
+.hodubox{display:flex; flex-direction:row; gap:170px; justify-content: center; align-items: center;
+    height:798px; width:auto;}
+.first_box{display:flex; flex-direction: row; gap:110px;  justify-content: center; align-items: center;
+    margin-top:80px;}
+.second_box{display:flex; flex-direction:column; align-items:center; justify-content: center; margin-top:60px;}
+.img_box img{width:378px; height:378px; align-items:center;}
+#map{width:1278px; height:520px;}
+.hodulogo{display:flex; flex-direction: column; gap:40px;}
+header>header>.hodubox>.hodulogo>h1,p,input{margin:0;}
+.last_box{width:1280px; height:200px; border-radius:30px; background-color:#263140; display:flex;
+    justify-content: center; align-items: center; position: relative; top:100px; gap:50px;}
+.input{display:flex; gap:30px; align-items: center;}
+span{color:#D97652;}
+.img_box{margin:70px 0; display:flex; flex-direction: column; justify-content: center; align-items: center;}
+.p{margin-top:20px; }
+hr{margin:60px 0;}
+.third_box{display:flex; flex-direction:column; justify-content:center; margin:auto; gap:20px;}
+.third_box>h2{margin:0;}
+.text_box{color:white;}
+.text_box>h2{margin:0;}
+.text_box{display: flex; flex-direction: column; gap:10px;}
+footer{display:flex; flex-direction: column; align-items: center; justify-content: center;}
+.input_box{width:530px; height:60px; border-radius:60px;}
+.subscribe{width:140px; height:50px; background-color:#D97652; color:white; border:0; border-radius:40px; font-size: 16px;
+    position: relative; bottom:25px; left:490px; z-index:1;}
+.last_imgbox{display:flex; flex-direction: column; justify-content: center; align-items: center;}
+.lasthodu{height:340px; width:100%; z-index: -1; position: relative; bottom:50px;}
+.last_imgbox2{display: flex; flex-direction: row; position: relative; bottom:25px; gap:950px;}
+.last_button{display: flex; gap:20px;}
